@@ -210,6 +210,19 @@ body {
 }
 /* contact pop ups end */
 
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the height as needed */
+}
+
+#banner img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
 		bottom: 370px;
@@ -223,6 +236,11 @@ body {
 	.img-area img {
 		width: 100%;
 	}
+	#banner img {
+		max-width: 100%;
+		height: auto;
+		max-height: 200px; /* Adjust the height as needed */
+	  }
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
@@ -249,4 +267,9 @@ body {
 	.card {
 		margin-bottom: 30px;
 	}
+	#banner img {
+		max-width: 100%;
+		height: auto;
+		max-height: 200px; /* Adjust the height as needed */
+	  }
 }
